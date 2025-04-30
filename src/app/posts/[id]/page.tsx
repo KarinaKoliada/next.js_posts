@@ -3,7 +3,7 @@ import { getPostById } from "@/app/services/api";
 import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import { IPost } from "@/app/types/post";
-
+//for test
 const Post = () => {
   const { id: postId } = useParams<{ id: string }>();
   const [post, setPost] = useState<IPost | null>(null);
