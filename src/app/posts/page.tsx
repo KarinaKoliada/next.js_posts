@@ -7,6 +7,7 @@ const Posts = () => {
 
   return (
     <div className="p-5">
+      <p>hello</p>
       <h1 className="text-5xl flex justify-center">Posts</h1>
       {posts && (
         <ul>
